@@ -3,6 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	
-	fmt.Println("teste módulo2")
+	fmt.Println("Teste de workspace")
 }
