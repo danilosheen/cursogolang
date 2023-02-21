@@ -20,7 +20,7 @@ func main() {
 	fmt.Println(notaFinal)
 
 	//cuidado em caso de conversão de string ele é apresentado valor asc
-	fmt.Println("Teste " + string(97))
+	fmt.Println("Teste " + string(rune(97)))
 
 	//int para string
 	fmt.Println("Teste " + strconv.Itoa(97))
