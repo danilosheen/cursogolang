@@ -18,8 +18,13 @@ func main() {
 	fmt.Println(a2, s2)
 
 	/*
-	o slice é uma estrutura que aponta para o primeiro valor referenciado 
+	- o slice é uma estrutura que aponta para o primeiro valor referenciado 
 	de um array existente
+
+	- slice não é considerado um array
+
+	- é possível criar vários slices apontando para o mesmo array em posições
+	diferentes
 	*/
 
 	s3 := a2[:2]
